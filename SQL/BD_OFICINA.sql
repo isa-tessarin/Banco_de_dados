@@ -54,17 +54,3 @@ VALUES 	('2028-02-12','10:35','Festa em Familia',3,NOW(), NOW()),
         ('2026-12-31','12:20','Almoço','3',NOW(), NOW()),
         ('2027-01-03','17:30','Festa do Pijama',1,NOW(), NOW()),
         ('2027-01-01','06:40','Reunião da Empresa',5,NOW(), NOW());
-
-SELECT * FROM CLIENTES;
-SELECT * FROM VEICULOS;
-
-/*PRIMEIRA PERGUNTA*/
-SELECT 	NOME AS 'CLIENTE',
-		COUNT(FK_CLIENTE_ID)
-FROM 	CLIENTES
-LEFT JOIN VEICULOS ON 
-
-/* SEGUNDA PERGUNTA */
-
-
-/*TERCEIRA PERGUNTA*/
